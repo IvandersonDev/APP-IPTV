@@ -1,0 +1,28 @@
+# Arquivos Android gerados e APKs (distribuídos por GitHub Releases)
+*.apk
+*.aab
+*.apks
+*.keystore
+*.jks
+*.pem
+*.key
+*.p12
+
+# Diretórios locais de desenvolvimento e engenharia reversa
+projeto-android-studio/
+codigo-extraido/
+jadx-src/
+*.zip
+
+# Imagens de teste da área de trabalho
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Metadados locais
+.idea/
+.gradle/
+local.properties
+.env
+.env.*

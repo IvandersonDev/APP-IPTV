@@ -16,6 +16,16 @@ Endereço direto para copiar no Downloader:
 
 Página de versões: https://github.com/IvandersonDev/APP-IPTV/releases
 
+### LG Smart TV (webOS)
+
+Para TVs LG com webOS, use o aplicativo **BLACK PLUS TV webOS** (`.ipk`) da versão de testes correspondente nas [Releases](https://github.com/IvandersonDev/APP-IPTV/releases).
+
+O `.ipk` é um aplicativo instalado na TV e aparece no launcher; não é um link para abrir no navegador.
+
+**Instalação em TV LG:** habilite o Developer Mode da LG, conecte a TV e um computador na mesma rede e use o webOS CLI ou o webOS Dev Manager para instalar o pacote `.ipk`. O Downloader de APKs Android não instala aplicativos webOS.
+
+**Estado da versão webOS:** pacote de teste, ainda não validado em uma TV LG física. A reprodução depende dos codecs suportados pelo modelo e a leitura de listas/login depende das permissões de rede e CORS do provedor. O SDK oficial de webOS não está instalado neste ambiente.
+
 > O aplicativo não fornece canais, filmes ou séries. Utilize apenas serviços e listas aos quais você tem acesso autorizado.
 
 ### Distribuição

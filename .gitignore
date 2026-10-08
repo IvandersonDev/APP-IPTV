@@ -2,6 +2,7 @@
 *.apk
 *.aab
 *.apks
+*.ipk
 *.keystore
 *.jks
 *.pem
@@ -10,6 +11,8 @@
 
 # Diretórios locais de desenvolvimento e engenharia reversa
 projeto-android-studio/
+webos/
+tools/
 codigo-extraido/
 jadx-src/
 *.zip

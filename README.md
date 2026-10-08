@@ -7,10 +7,14 @@ Aplicativo Android e Android TV para assistir às listas M3U e contas Xtream Cod
 ### Instalação pela TV
 
 1. Abra o **Downloader by AFTVnews** na TV.
-2. Acesse a página de [versões do BLACK PLUS TV](https://github.com/IvandersonDev/APP-IPTV/releases/latest).
-3. Baixe o arquivo **BLACK-PLUS-TV.apk** e autorize a instalação, se solicitado.
+2. Abra o [download direto do BLACK PLUS TV (APK)](https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk).
+3. Aguarde o download e autorize a instalação, se solicitado.
 
-Link para as versões: https://github.com/IvandersonDev/APP-IPTV/releases
+Endereço direto para copiar no Downloader:
+
+`https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk`
+
+Página de versões: https://github.com/IvandersonDev/APP-IPTV/releases
 
 > O aplicativo não fornece canais, filmes ou séries. Utilize apenas serviços e listas aos quais você tem acesso autorizado.
 

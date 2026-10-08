@@ -10,6 +10,10 @@ Aplicativo Android e Android TV para assistir às listas M3U e contas Xtream Cod
 2. Abra o [download direto do BLACK PLUS TV (APK)](https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk).
 3. Aguarde o download e autorize a instalação, se solicitado.
 
+**Android / Android TV — versão 1.0.8:** o pacote agora utiliza o identificador independente `com.ivandersondev.blackplustv`, evitando conflito de assinatura com o Assist Plus original. Pode ser instalado ao lado da versão antiga, mas as listas e credenciais não são importadas automaticamente. Requer Android 5.0 ou superior e espaço livre suficiente.
+
+**Atenção:** nenhuma versão `.apk` funciona nativamente em TVs LG com webOS. Para LG, consulte a seção abaixo sobre o pacote `.ipk` experimental.
+
 Endereço direto para copiar no Downloader:
 
 `https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk`

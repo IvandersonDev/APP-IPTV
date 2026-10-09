@@ -34,11 +34,11 @@ O `.ipk` é um aplicativo instalado na TV e aparece no launcher; não é um link
 
 **Instalação em TV LG:** instale o aplicativo **Developer Mode** pela loja de aplicativos da TV LG; entre com uma conta de desenvolvedor da LG, ative Developer Mode e Key Server. Conecte a TV e um computador na mesma rede; no computador, use o **webOS Dev Manager** para adicionar a TV e instalar o pacote `.ipk`. O Downloader de APKs Android e o pendrive comum não instalam aplicativos webOS.
 
-**Estado da versão webOS:** pacote gerado com o **LG webOS `ares-package` oficial**, passou pelo `ares-package --check`, leitura de manifesto e verificação sintática do JavaScript. **Ainda não foi instalado/testado em uma LG física.** O login por código, Xtream/M3U, as capas e a reprodução precisam ser validados na TV: o acesso HTTP pode ser bloqueado pelo CORS do provedor e os codecs/formatos variam com o webOS. Por isso o download LG é beta, e não uma versão final certificada.
+**Estado da versão webOS:** pacote gerado com o **LG webOS `ares-package` oficial**, passou pelo `ares-package --check`, validador de estrutura IPK e verificação sintática do JavaScript. **Ainda não foi instalado/testado em uma LG física.** O login por código, Xtream/M3U, as capas e a reprodução precisam ser validados na TV. Na verificação local, o serviço de registro por código apresentou resposta HTTP 500 e não liberou o cabeçalho CORS necessário: o provedor precisa corrigir o serviço ou fornecer um gateway autorizado. Codecs e formatos variam com o webOS. Por isso o download LG é beta, e não uma versão final certificada.
 
 **SHA-256 da versão LG 1.1.0 Beta:**
 
-`a94413d59881fd74ff60ca4d948ef526a5d50705249be2ff1c868b1fa3aa7f6f`
+`d7b6c413085b1996f5d03c990a7e5e789319cc4a7196ef231a9a17fd26106e9a`
 
 > O aplicativo não fornece canais, filmes ou séries. Utilize apenas serviços e listas aos quais você tem acesso autorizado.
 

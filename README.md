@@ -28,13 +28,17 @@ O arquivo foi baixado integralmente do GitHub para conferência: o hash publicad
 
 ### LG Smart TV (webOS)
 
-Para TVs LG com webOS, use o aplicativo **BLACK PLUS TV webOS** (`.ipk`) da versão de testes correspondente nas [Releases](https://github.com/IvandersonDev/APP-IPTV/releases).
+Para TVs LG com webOS, use o aplicativo **BLACK PLUS TV webOS 1.1.0 Beta** (`.ipk`) da [pré-versão LG](https://github.com/IvandersonDev/APP-IPTV/releases/tag/webos-v1.1.0-beta.1). Ele é diferente do `.apk` Android.
 
 O `.ipk` é um aplicativo instalado na TV e aparece no launcher; não é um link para abrir no navegador.
 
-**Instalação em TV LG:** habilite o Developer Mode da LG, conecte a TV e um computador na mesma rede e use o webOS CLI ou o webOS Dev Manager para instalar o pacote `.ipk`. O Downloader de APKs Android não instala aplicativos webOS.
+**Instalação em TV LG:** instale o aplicativo **Developer Mode** pela loja de aplicativos da TV LG; entre com uma conta de desenvolvedor da LG, ative Developer Mode e Key Server. Conecte a TV e um computador na mesma rede; no computador, use o **webOS Dev Manager** para adicionar a TV e instalar o pacote `.ipk`. O Downloader de APKs Android e o pendrive comum não instalam aplicativos webOS.
 
-**Estado da versão webOS:** versão experimental, ainda não validada em uma TV LG física. A reprodução depende dos codecs do modelo e a leitura das listas/login depende das permissões de rede e CORS do provedor. Consulte sempre as notas específicas de cada pré-lançamento antes de instalar.
+**Estado da versão webOS:** pacote gerado com o **LG webOS `ares-package` oficial**, passou pelo `ares-package --check`, leitura de manifesto e verificação sintática do JavaScript. **Ainda não foi instalado/testado em uma LG física.** O login por código, Xtream/M3U, as capas e a reprodução precisam ser validados na TV: o acesso HTTP pode ser bloqueado pelo CORS do provedor e os codecs/formatos variam com o webOS. Por isso o download LG é beta, e não uma versão final certificada.
+
+**SHA-256 da versão LG 1.1.0 Beta:**
+
+`a94413d59881fd74ff60ca4d948ef526a5d50705249be2ff1c868b1fa3aa7f6f`
 
 > O aplicativo não fornece canais, filmes ou séries. Utilize apenas serviços e listas aos quais você tem acesso autorizado.
 

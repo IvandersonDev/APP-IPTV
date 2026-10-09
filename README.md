@@ -10,7 +10,7 @@ Aplicativo Android e Android TV para assistir às listas M3U e contas Xtream Cod
 2. Abra o [download direto do BLACK PLUS TV (APK)](https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk).
 3. Aguarde o download e autorize a instalação, se solicitado.
 
-**Android / Android TV — versão 1.0.8:** o pacote agora utiliza o identificador independente `com.ivandersondev.blackplustv`, evitando conflito de assinatura com o Assist Plus original. Pode ser instalado ao lado da versão antiga, mas as listas e credenciais não são importadas automaticamente. Requer Android 5.0 ou superior e espaço livre suficiente.
+**Android / Android TV — versão 1.0.11:** inclui a correção definitiva das capas de filmes e séries em WebViews antigos, além do acesso por servidor Xtream opcional. O identificador independente `com.ivandersondev.blackplustv` evita conflito de assinatura com o Assist Plus original. A edição nova pode ser instalada ao lado da antiga, mas as listas e credenciais não são importadas automaticamente. Requer Android 5.0 ou superior e espaço livre suficiente.
 
 **Atenção:** nenhuma versão `.apk` funciona nativamente em TVs LG com webOS. Para LG, consulte a seção abaixo sobre o pacote `.ipk` experimental.
 
@@ -20,6 +20,12 @@ Endereço direto para copiar no Downloader:
 
 Página de versões: https://github.com/IvandersonDev/APP-IPTV/releases
 
+**Integridade do APK v1.0.11 (SHA-256):**
+
+`d7332fcd2c1c80da686fbe100ae7598b6e885a28baf9e4245f6a0ff80733d81d`
+
+O arquivo foi baixado integralmente do GitHub para conferência: o hash publicado coincide com o build local assinado.
+
 ### LG Smart TV (webOS)
 
 Para TVs LG com webOS, use o aplicativo **BLACK PLUS TV webOS** (`.ipk`) da versão de testes correspondente nas [Releases](https://github.com/IvandersonDev/APP-IPTV/releases).
@@ -28,7 +34,7 @@ O `.ipk` é um aplicativo instalado na TV e aparece no launcher; não é um link
 
 **Instalação em TV LG:** habilite o Developer Mode da LG, conecte a TV e um computador na mesma rede e use o webOS CLI ou o webOS Dev Manager para instalar o pacote `.ipk`. O Downloader de APKs Android não instala aplicativos webOS.
 
-**Estado da versão webOS:** pacote de teste, ainda não validado em uma TV LG física. A reprodução depende dos codecs suportados pelo modelo e a leitura de listas/login depende das permissões de rede e CORS do provedor. O SDK oficial de webOS não está instalado neste ambiente.
+**Estado da versão webOS:** versão experimental, ainda não validada em uma TV LG física. A reprodução depende dos codecs do modelo e a leitura das listas/login depende das permissões de rede e CORS do provedor. Consulte sempre as notas específicas de cada pré-lançamento antes de instalar.
 
 > O aplicativo não fornece canais, filmes ou séries. Utilize apenas serviços e listas aos quais você tem acesso autorizado.
 

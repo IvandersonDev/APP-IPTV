@@ -10,7 +10,9 @@ Aplicativo Android e Android TV para assistir às listas M3U e contas Xtream Cod
 2. Abra o [download direto do BLACK PLUS TV (APK)](https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk).
 3. Aguarde o download e autorize a instalação, se solicitado.
 
-**Android / Android TV — versão 1.0.11:** inclui a correção definitiva das capas de filmes e séries em WebViews antigos, além do acesso por servidor Xtream opcional. O identificador independente `com.ivandersondev.blackplustv` evita conflito de assinatura com o Assist Plus original. A edição nova pode ser instalada ao lado da antiga, mas as listas e credenciais não são importadas automaticamente. Requer Android 5.0 ou superior e espaço livre suficiente.
+**Android / Android TV — versão 1.0.13:** preserva login por **Código + Usuário + Senha**, capas de filmes/séries e servidor Xtream opcional. Acrescenta proteção contra saída involuntária durante erros de TV ao vivo, melhoria na troca rápida de canais e limpeza de recursos do ExoPlayer/VLC. O aplicativo mantém o identificador independente `com.ivandersondev.blackplustv`, sem conflito com o Assist Plus original. Requer Android 5.0 ou superior e espaço livre suficiente.
+
+**Validação Android 1.0.13:** APK compilado e assinado com a mesma chave de desenvolvimento da versão anterior; atualização `adb install -r` instalada no emulador Android Studio sem remoção dos dados; inicialização e 15 trocas de canal na interface sem saída involuntária; testes automatizados de erros, 30 zaps e login aprovados. A reprodução integral em Android TV/TV Box físico continua pendente de confirmação — valide antes de distribuir em escala.
 
 **Atenção:** nenhuma versão `.apk` funciona nativamente em TVs LG com webOS. Para LG, consulte a seção abaixo sobre o pacote `.ipk` experimental.
 
@@ -20,11 +22,13 @@ Endereço direto para copiar no Downloader:
 
 Página de versões: https://github.com/IvandersonDev/APP-IPTV/releases
 
-**Integridade do APK v1.0.11 (SHA-256):**
+**Integridade do APK v1.0.13 (SHA-256):**
 
-`d7332fcd2c1c80da686fbe100ae7598b6e885a28baf9e4245f6a0ff80733d81d`
+`80dd491669ad598eef30f158280fc6f3dfaeecc6a94ed8bf5421bf5f3c4f2a4d`
 
-O arquivo foi baixado integralmente do GitHub para conferência: o hash publicado coincide com o build local assinado.
+Antes de instalar, confira o hash do APK baixado com o SHA-256 publicado. Não desinstale a versão anterior para atualizar, pois isso pode apagar a lista e o token salvos.
+
+**Smart TVs Philco:** confirme o sistema da televisão antes de usar o APK. Modelos Android TV/Google TV compatíveis podem instalar APK; TVs Roku TV e outros sistemas não executam APK Android nativamente.
 
 ### LG Smart TV (webOS)
 
@@ -34,7 +38,7 @@ O `.ipk` é um aplicativo instalado na TV e aparece no launcher; não é um link
 
 **Instalação em TV LG:** instale o aplicativo **Developer Mode** pela loja de aplicativos da TV LG; entre com uma conta de desenvolvedor da LG, ative Developer Mode e Key Server. Conecte a TV e um computador na mesma rede; no computador, use o **webOS Dev Manager** para adicionar a TV e instalar o pacote `.ipk`. O Downloader de APKs Android e o pendrive comum não instalam aplicativos webOS.
 
-**Estado da versão webOS:** pacote gerado com o **LG webOS `ares-package` oficial**, passou pelo `ares-package --check`, validador de estrutura IPK e verificação sintática do JavaScript. **Ainda não foi instalado/testado em uma LG física.** O login por código, Xtream/M3U, as capas e a reprodução precisam ser validados na TV. Na verificação local, o serviço de registro por código apresentou resposta HTTP 500 e não liberou o cabeçalho CORS necessário: o provedor precisa corrigir o serviço ou fornecer um gateway autorizado. Codecs e formatos variam com o webOS. Por isso o download LG é beta, e não uma versão final certificada.
+**Estado da versão webOS:** o pacote público 1.1.0 é uma beta antiga. Versões posteriores até a **1.1.5 Beta** foram desenvolvidas e testadas localmente na LG 55UT8050PSA, com reprodução real, login, botão Voltar e troca de canais validados, mas a 1.1.5 ainda não foi publicada neste repositório. Cada versão é empacotada pelo **LG webOS `ares-package` oficial**. A compatibilidade depende do modelo da TV, codecs e restrições do provedor. O pacote `.ipk` não deve ser confundido com o APK Android.
 
 **SHA-256 da versão LG 1.1.0 Beta:**
 

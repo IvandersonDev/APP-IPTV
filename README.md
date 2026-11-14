@@ -10,9 +10,9 @@ Aplicativo Android e Android TV para assistir às listas M3U e contas Xtream Cod
 2. Abra o [download direto do BLACK PLUS TV (APK)](https://github.com/IvandersonDev/APP-IPTV/releases/latest/download/BLACK-PLUS-TV.apk).
 3. Aguarde o download e autorize a instalação, se solicitado.
 
-**Android / Android TV — versão 1.0.15:** visual novo, menu inicial para escolher **TV ao vivo, Filmes ou Séries**, banner de destaque e fileiras horizontais, faixa **Continuar** (último canal, filme e série em andamento), ícones próprios (não dependem das fontes da TV) e carregamento muito mais rápido: links `get.php?username=...&password=...` passam a usar a API Xtream do servidor, e o catálogo fica em cache. Também é possível **adicionar uma lista pelo celular lendo um QR code** (veja abaixo). Mantém o login por **Código + Usuário + Senha**, as capas e o servidor Xtream opcional. O identificador continua `com.ivandersondev.blackplustv`, sem conflito com o Assist Plus original. Requer Android 5.0 ou superior e espaço livre suficiente.
+**Android / Android TV — versão 1.0.16:** visual novo, menu inicial para escolher **TV ao vivo, Filmes ou Séries**, banner de destaque e fileiras horizontais, faixa **Continuar** (último canal, filme e série em andamento), ícones próprios (não dependem das fontes da TV) e capas das fileiras de Destaques carregam em todas as fileiras visíveis (correção da 1.0.16) e carregamento muito mais rápido: links `get.php?username=...&password=...` passam a usar a API Xtream do servidor, e o catálogo fica em cache. Também é possível **adicionar uma lista pelo celular lendo um QR code** (veja abaixo). Mantém o login por **Código + Usuário + Senha**, as capas e o servidor Xtream opcional. O identificador continua `com.ivandersondev.blackplustv`, sem conflito com o Assist Plus original. Requer Android 5.0 ou superior e espaço livre suficiente.
 
-**Validação Android 1.0.15:** APK compilado e assinado com a mesma chave de desenvolvimento da versão anterior (a atualização mantém listas e login), com os testes automatizados de lógica (login, 30 trocas de canal, filmes e busca) aprovados no computador. **Não foi instalado nem testado em Android TV, TV Box físico ou emulador** — valide antes de distribuir em escala.
+**Validação Android 1.0.16:** APK compilado e assinado com a mesma chave de desenvolvimento da versão anterior (a atualização mantém listas e login), com os testes automatizados de lógica (login, 30 trocas de canal, filmes e busca) aprovados no computador. **Não foi instalado nem testado em Android TV, TV Box físico ou emulador** — valide antes de distribuir em escala.
 
 **Atenção:** nenhuma versão `.apk` funciona nativamente em TVs LG com webOS. Para LG, consulte a seção abaixo sobre o pacote `.ipk` experimental.
 
@@ -22,9 +22,9 @@ Endereço direto para copiar no Downloader:
 
 Página de versões: https://github.com/IvandersonDev/APP-IPTV/releases
 
-**Integridade do APK v1.0.15 (SHA-256):**
+**Integridade do APK v1.0.16 (SHA-256):**
 
-`779aecac7cb414f6d58cf498ddef60b645c2da9327318a71239cf6bd35fad23e`
+`84279d6d5d2aecb5225319d7467dc45ae7372f5afa069a63eee31f12909a6bda`
 
 Antes de instalar, confira o hash do APK baixado com o SHA-256 publicado. Não desinstale a versão anterior para atualizar, pois isso pode apagar a lista e o token salvos.
 
